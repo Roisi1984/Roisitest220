@@ -48,6 +48,5 @@
 	job_icon = "securityofficer"
 
 	id = /obj/item/card/id/syndicate_command/crew_id
-	belt = /obj/item/storage/belt/security/webbing/ramzi
 
 	l_pocket = /obj/item/flashlight/seclite

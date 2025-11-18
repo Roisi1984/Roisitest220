@@ -212,10 +212,6 @@
 /obj/structure/sign/poster/bay/bay_10{
 	pixel_y = 31
 	},
-/obj/item/restraints/handcuffs{
-	pixel_y = -2;
-	pixel_x = -2
-	},
 /turf/open/floor/plasteel/tech,
 /area/ship/security/armory)
 "da" = (
@@ -424,7 +420,6 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/box/red,
-/obj/item/shield/riot,
 /obj/item/melee/powerfist,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security/armory)
@@ -1207,10 +1202,6 @@
 /area/ship/security/armory)
 "pH" = (
 /obj/machinery/light/directional/west,
-/obj/machinery/suit_storage_unit/inherit,
-/obj/item/clothing/suit/space/hardsuit/syndi/ramzi,
-/obj/item/tank/jetpack/oxygen/harness,
-/obj/item/clothing/mask/gas/ramzi,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/engineering)
 "pY" = (
@@ -1304,17 +1295,11 @@
 	},
 /obj/machinery/light/directional/north,
 /obj/item/gun/ballistic/shotgun/automatic/bulldog/drum,
-/obj/item/gun/ballistic/automatic/smg/vector{
-	name = "Special Operations Vector";
-	projectile_damage_multiplier = 1.2;
-	allowed_ammo_types = list(/obj/item/ammo_box/magazine/m45_cobra);
-	default_ammo_type = 0;
-	desc = "A police carbine based on an old design originating from earth, Solar Federation. Modified by Gorlex and used as a common security SMG. Chambered in 45."
-	},
 /obj/effect/turf_decal/corner/opaque/syndiered/half{
 	dir = 1
 	},
 /obj/item/gun/ballistic/automatic/marksman/f4/indie,
+/obj/item/gun/ballistic/automatic/smg/cobra,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security/armory)
 "sp" = (
@@ -1412,10 +1397,6 @@
 	req_access_txt = list(20)
 	},
 /obj/machinery/airalarm/directional/west,
-/obj/item/clothing/gloves/krav_maga/combatglovesplus{
-	pixel_y = -9;
-	icon_state = "combat"
-	},
 /obj/item/clothing/glasses/hud/security/sunglasses/eyepatch{
 	pixel_y = 9;
 	pixel_x = -4
@@ -1449,6 +1430,9 @@
 	},
 /obj/item/clothing/under/syndicate/ramzi/officer{
 	pixel_y = 8
+	},
+/obj/item/clothing/gloves/combat{
+	layer = 2
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
@@ -1814,11 +1798,6 @@
 	pixel_y = 8;
 	pixel_x = 10
 	},
-/obj/item/clothing/glasses/hud/security/sunglasses/ngr{
-	name = "Gorlex modified mesons";
-	pixel_y = 8;
-	pixel_x = 10
-	},
 /obj/effect/turf_decal/corner/opaque/syndiered/three_quarters,
 /obj/item/clothing/mask/balaclava/combat{
 	pixel_y = -4;
@@ -1832,10 +1811,6 @@
 	pixel_y = -4;
 	pixel_x = 10
 	},
-/obj/item/clothing/mask/balaclava/combat{
-	pixel_y = -4;
-	pixel_x = 10
-	},
 /obj/item/clothing/suit/armor/ramzi{
 	pixel_y = -7;
 	pixel_x = -4
@@ -1846,15 +1821,6 @@
 	},
 /obj/item/clothing/suit/armor/ramzi{
 	pixel_y = -7;
-	pixel_x = -4
-	},
-/obj/item/clothing/suit/armor/ramzi{
-	pixel_y = -7;
-	pixel_x = -4
-	},
-/obj/item/clothing/head/helmet/ramzi{
-	icon_state = "ramzi_x11";
-	pixel_y = 5;
 	pixel_x = -4
 	},
 /obj/item/clothing/head/helmet/ramzi{
@@ -2241,14 +2207,11 @@
 	pixel_y = -1;
 	pixel_x = 6
 	},
-/obj/item/clothing/gloves/combat/insul{
-	pixel_y = -9
-	},
-/obj/item/storage/belt/utility/syndicate{
-	pixel_y = -7
-	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
+	},
+/obj/item/storage/belt/utility/full/engi{
+	pixel_y = -10
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
@@ -2547,12 +2510,15 @@
 /obj/machinery/airalarm/directional/north,
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/melee/sledgehammer/gorlex{
-	pixel_y = 7;
-	pixel_x = -6
-	},
-/obj/item/melee/knife/combat{
-	pixel_y = 2;
 	pixel_x = 5
+	},
+/obj/item/restraints/handcuffs{
+	pixel_y = 10;
+	pixel_x = -3
+	},
+/obj/item/restraints/handcuffs{
+	pixel_y = 3;
+	pixel_x = -10
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/security/armory)
